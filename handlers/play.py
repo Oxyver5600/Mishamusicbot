@@ -91,7 +91,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                    & ~filters.via_bot)
 async def play(_, message: Message):
 
-    lel = await message.reply("🔄 **𝗟𝗼𝗮𝗱 𝗕𝗲𝘀𝘁 👌𝗤𝘂𝗮𝗹𝗶𝘁𝘆 ❤️ 𝗦𝗼𝗻𝗴 @Royals_heart 🎶🤟**")
+    lel = await message.reply("🔄 **𝗟𝗼𝗮𝗱 𝗕𝗲𝘀𝘁 👌𝗤𝘂𝗮𝗹𝗶𝘁𝘆 ❤️ 𝗦𝗼𝗻𝗴 @Prince_Charles2 🎶🤟**")
     
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -111,7 +111,7 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>𝗔𝗱 𝗠𝗲 𝗔𝘀 𝗔𝗱𝗺𝗶𝗻 𝗢𝗳 𝗬𝗼𝘂𝗿 𝗚𝗿𝘂𝗼𝗽  𝗙𝗶𝗿𝘀𝘁 ❰ 🕊️⃝🦋𝙍𝙞𝙢𝙢𝙞➳𝙈𝙪𝙨𝙞𝙘➳𝘽𝙤𝙩🕊️⃝🦋 ❱</b>")
+                        "<b>𝗔𝗱 𝗠𝗲 𝗔𝘀 𝗔𝗱𝗺𝗶𝗻 𝗢𝗳 𝗬𝗼𝘂𝗿 𝗚𝗿𝘂𝗼𝗽  𝗙𝗶𝗿𝘀𝘁 ❰ ❤🎤𝐌𝐢𝐬𝐡𝐚➳𝐌𝐮𝐬𝐢𝐜➳𝐁𝐨𝐭🎤❤ ❱</b>")
                     return
 
                 try:
@@ -128,7 +128,7 @@ async def play(_, message: Message):
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>❰🕊️⃝🦋𝙍𝙞𝙢𝙢𝙞➳𝙈𝙪𝙨𝙞𝙘➳𝘽𝙤𝙩🕊️⃝🦋❱ 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝗨𝘀𝗲𝗿𝗕𝗼𝘁 𝗜𝘀 𝗡𝗼𝘁 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗖𝗵𝗮𝘁' 𝗔𝘀𝗸 𝗔𝗱𝗺𝗶𝗻 𝗧𝗼 𝗦𝗲𝗻𝗱 /𝗽𝗹𝗮𝘆 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗙𝗼𝗿 𝗙𝗶𝗿𝘀𝘁 𝗧𝗶𝗺𝗲 𝗧𝗼 𝗔𝗱𝗱 𝗜𝘁 😎🤟</i>")
+            f"<i>❰❤🎤𝐌𝐢𝐬𝐡𝐚➳𝐌𝐮𝐬𝐢𝐜➳𝐁𝐨𝐭🎤❤❱ 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝗨𝘀𝗲𝗿𝗕𝗼𝘁 𝗜𝘀 𝗡𝗼𝘁 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗖𝗵𝗮𝘁' 𝗔𝘀𝗸 𝗔𝗱𝗺𝗶𝗻 𝗧𝗼 𝗦𝗲𝗻𝗱 /𝗽𝗹𝗮𝘆 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗙𝗼𝗿 𝗙𝗶𝗿𝘀𝘁 𝗧𝗶𝗺𝗲 𝗧𝗼 𝗔𝗱𝗱 𝗜𝘁 😎🤟</i>")
         return
     
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
@@ -220,10 +220,10 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit("✌**𝗪𝗵𝗮𝘁'𝘀 𝗧𝗵𝗲 ❤️ 𝗦𝗼𝗻𝗴 🎶 𝗬𝗼𝘂 😎 𝗪𝗮𝗻𝘁 𝗧𝗼 𝗣𝗹𝗮𝘆 @Royals_heart🧿🤟**")
-        await lel.edit("🔎 **𝗙𝗶𝗻𝗱𝗶𝗻𝗴 💫 𝗧𝗵𝗲 𝗦𝗼𝗻𝗴 ❤️ ❰🕊️⃝🇮🇳★𝙍𝙤𝙮𝙖𝙡❤️𝙃𝙚𝙖𝙧𝙩★🇮🇳⃝🕊️❱...**")
+        await lel.edit("🔎 **𝗙𝗶𝗻𝗱𝗶𝗻𝗴 💫 𝗧𝗵𝗲 𝗦𝗼𝗻𝗴 ❤️ ❰❤🎤𝐌𝐢𝐬𝐡𝐚➳𝐌𝐮𝐬𝐢𝐜➳𝐁𝐨𝐭🎤❤❱...**")
         query = message.text.split(None, 1)[1]
         # print(query)
-        await lel.edit("🎵 **𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴 𝗦𝗼𝘂𝗻𝗱 🕊️⃝🇮🇳★𝙍𝙤𝙮𝙖𝙡❤️𝙃𝙚𝙖𝙧𝙩★🇮🇳⃝🕊️ @Royals_heart 🔊**")
+        await lel.edit("🎵 **𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴 𝗦𝗼𝘂𝗻𝗱 ❤🎤𝐌𝐢𝐬𝐡𝐚➳𝐌𝐮𝐬𝐢𝐜➳𝐁𝐨𝐭🎤❤ @Prince_Charles2 🔊**")
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"
@@ -274,7 +274,7 @@ async def play(_, message: Message):
         position = await queues.put(message.chat.id, file=file_path)
         await message.reply_photo(
         photo="final.png", 
-        caption="**❰🕊️⃝🇮🇳★𝙍𝙤𝙮𝙖𝙡❤️𝙃𝙚𝙖𝙧𝙩★🇮🇳⃝🕊️❱ 𝗦𝗼𝗻𝗴 ❤️ 𝗣𝗼𝘀𝗶𝘁𝗶𝗼𝗻 💫🤟** {}".format(
+        caption="**❰❤𝐏𝐫𝐢𝐧𝐜𝐞✯➳𝐂𝐡𝐚𝐫𝐥𝐞𝐬❤❱ 𝗦𝗼𝗻𝗴 ❤️ 𝗣𝗼𝘀𝗶𝘁𝗶𝗼𝗻 💫🤟** {}".format(
         position
         ),
         reply_markup=keyboard)
@@ -285,7 +285,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="**❰🕊️⃝🇮🇳★𝙍𝙤𝙮𝙖𝙡❤️𝙃𝙚𝙖𝙧𝙩★🇮🇳⃝🕊️❱❰@Royals_heart❱ 𝐍𝐨𝐰 😄 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 📀 𝗔𝘁 🤟 `{}`...**".format(
+        caption="**❰❤𝐏𝐫𝐢𝐧𝐜𝐞✯➳𝐂𝐡𝐚𝐫𝐥𝐞𝐬❤❱❰@Prince_Charles2❱ 𝐍𝐨𝐰 😄 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 📀 𝗔𝘁 🤟 `{}`...**".format(
         message.chat.title
         ), )
         os.remove("final.png")
