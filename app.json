@@ -1,9 +1,9 @@
 {
-  "name": "🕊️⃝🦋𝙍𝙞𝙢𝙢𝙞➳𝙈𝙪𝙨𝙞𝙘➳𝘽𝙤𝙩🦋○🕊️",
+  "name": "❤🎤𝐌𝐢𝐬𝐡𝐚➳𝐌𝐮𝐬𝐢𝐜➳𝐁𝐨𝐭🎤❤",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
-  "logo": "https://telegra.ph/file/db9244167ceeaf1584906.jpg",
+  "logo": "https://telegra.ph/file/1b59ed3452317aea48479.jpg",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/Engtion5652/Rimmimusicbot1",
+  "repository": "https://github.com/Oxyver5600/Rimmimusicbot1",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -17,7 +17,7 @@
     "BOT_NAME": {
       "description": "Your MusicPlayer Bot Name.",
       "required": false,
-      "value": "🕊️⃝🦋𝙍𝙞𝙢𝙢𝙞➳𝙈𝙪𝙨𝙞𝙘➳𝘽𝙤𝙩🦋○🕊️"
+      "value": "❤🎤𝐌𝐢𝐬𝐡𝐚➳𝐌𝐮𝐬𝐢𝐜➳𝐁𝐨𝐭🎤❤"
     },
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
