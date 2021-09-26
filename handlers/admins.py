@@ -21,7 +21,7 @@ async def pause(_, message: Message):
         await message.reply_text("❗ 𝗡𝗼𝘁𝗵𝗶𝗻𝗴 𝗜𝘀 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 ✨")
     else:
         callsmusic.pytgcalls.pause_stream(message.chat.id)
-        await message.reply_text("▶️ 𝗣𝗮𝘂𝘀𝗲𝗱 @Ali56005226T 😔🤟")
+        await message.reply_text("▶️ 𝗣𝗮𝘂𝘀𝗲𝗱 @Prince_Charles2 😔🤟")
 
 
 @Client.on_message(command("resume") & other_filters)
@@ -36,7 +36,7 @@ async def resume(_, message: Message):
         await message.reply_text("❗ 𝗡𝗼𝘁𝗵𝗶𝗻𝗴 𝗜𝘀 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 ✨")
     else:
         callsmusic.pytgcalls.resume_stream(message.chat.id)
-        await message.reply_text("⏸ 𝗥𝗲𝘀𝘂𝗺𝗲𝗱 @Ali56005226T ❤️🤟")
+        await message.reply_text("⏸ 𝗥𝗲𝘀𝘂𝗺𝗲𝗱 @Prince_Charles2 ❤️🤟")
 
 
 @Client.on_message(command("end") & other_filters)
@@ -52,7 +52,7 @@ async def stop(_, message: Message):
             pass
 
         callsmusic.pytgcalls.leave_group_call(message.chat.id)
-        await message.reply_text("❌𝗦𝘁𝗼𝗽 🛑 𝗦𝘁𝗿𝗲𝗮𝗺𝗶𝗻𝗴 @Ali56005226T ✨")
+        await message.reply_text("❌𝗦𝘁𝗼𝗽 🛑 𝗦𝘁𝗿𝗲𝗮𝗺𝗶𝗻𝗴 @Prince_Charles2 ✨")
 
 
 @Client.on_message(command("skip") & other_filters)
@@ -72,4 +72,4 @@ async def skip(_, message: Message):
                 callsmusic.queues.get(message.chat.id)["file"]
             )
 
-        await message.reply_text("➡️ 𝗦𝗸𝗶𝗽 💫 𝗧𝗵𝗲 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 😊 𝗦𝗼𝗻𝗴 @Ali56005226T ❤️🤟")
+        await message.reply_text("➡️ 𝗦𝗸𝗶𝗽 💫 𝗧𝗵𝗲 𝗖𝘂𝗿𝗿𝗲𝗻𝘁 😊 𝗦𝗼𝗻𝗴 @Prince_Charles2 ❤️🤟")
